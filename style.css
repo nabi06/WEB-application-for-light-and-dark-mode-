@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body, html {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  body {
+    /* Combined multi-stop gradient */
+    background: linear-gradient(to bottom right, #eb8ce8,#f06bf7, #d36aed,#7356e5,#8288f5, #73a2f3);
+  }
+  
+  .content {
+    /* Your content styling */
+  }
+  a{
+    text-decoration: none;
+    color: black;
+
+  }
+.nav-bar{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-right: 50px;
+
+  height: 10%;
+  gap: 10px;
+}
+
+.nav-bar img{
+  height: 70px;
+  width: 100px;
+  margin-left: 100px;
+  margin-right: 400px;
+  padding-top: 10px;
+  
+}
+.nav-bar a{
+  margin: 10px 20px;
+  font-size: 3vh;
+}
+.nav-bar button{
+  height: 50px;
+  width: 70px;
+  border-radius:20%;
+  
+}
+.nav-bar button .bi-brightness-high-fill{
+  height: fit-content;
+  width: 30px;
+  padding-top: 7px;
+}
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  padding-top: 10%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+span{
+  color: #434cec;
+}
+.cent1{
+  width: 600px;
+  padding-left: 100px;
+}
+.cent1 h1{
+  font-size: 6vh;
+  
+}
+.cent1 p{
+  font-size: 4vh;
+}
+.nav-bar a:hover{
+  color: rgb(234, 233, 231);
+}
+.center img{
+  transition: transform 3s;
+}
+.center img:hover{
+  transform: scale(1.5);
+}
+.cent1 #darkk{
+  opacity: 0.3;
+  color: white;
+  font-size: 15vh;
+  position: absolute;
+  top: 180px;
+  left: 200px;
+}
